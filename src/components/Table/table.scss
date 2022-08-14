@@ -1,16 +1,25 @@
 .table {
   min-width: 100%;
   color: yellowgreen;
+  display: table;
 }
 .col {
   display: inline-block;
 }
+.tbody {
+  display: table-row-group;
+}
 .th, .td {
   border: 1px solid #000;
 }
+.tr {
+  display: table-row;
+}
 .th {
+  display: table-cell;
   background-color: cadetblue;
 }
 .td {
+  display: table-cell;
   background-color: coral;
 }
